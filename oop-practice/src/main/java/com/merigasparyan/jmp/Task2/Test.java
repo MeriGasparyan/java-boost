@@ -17,3 +17,5 @@ public class Test {
     }
 }
 
+// Since both of them have valid parameter number and both accept null as input the more
+// specific one(String is more specific than Object) is chosen

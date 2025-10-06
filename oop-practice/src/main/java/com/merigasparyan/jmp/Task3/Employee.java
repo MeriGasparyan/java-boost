@@ -1,9 +1,10 @@
 package com.merigasparyan.jmp.Task3;
 
-import lombok.NoArgsConstructor;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
+@Getter
 public abstract class Employee {
     private final String name;
 
